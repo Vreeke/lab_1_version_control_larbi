@@ -113,3 +113,17 @@ header {
     transform: rotateX(10deg) rotateY(-15deg) scale3d(1.05, 1.05, 1.05);
     box-shadow: 15px 20px 30px rgba(0,0,0,0.15);
 }
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+    .content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin: 30px auto;
+    }
+
+    .menu {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
